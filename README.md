@@ -1,19 +1,22 @@
-# iTunes<br />
-  # iTunesSearchLyrics.scpt<br />
-  Search for any text in Lyrics Tag for the songs in "All" playlist and then put the results on "Search Results" Playlist.<br />
-  # iTunesShowLyrics.scpt<br />
-  Display lyrics of selected song, if none then current playing song.<br />
+# iTunes
+* **iTunesSearchLyrics.scpt**  
+Search for any text in Lyrics Tag for the songs in "All" playlist and then put the results on "Search Results" Playlist.
 
-  # Installation<br />
-  Deploy files in ~/Library/Itunes/Scripts/<br />
-  Go to Settings -> Keyboards -> Shortcuts -> App Shortcuts -> Add<br />
-    iTunesSearchLyrics  cmd+shift+f<br />
-    iTunesShowLyrics    cmd+shift+l<br />
+* **iTunesShowLyrics.scpt**  
+Display lyrics of selected song, if none then current playing song.
 
-# Messages<br />
-  Some new scripts and some updated apple scripts for Messages.app
-  For some reason apple never updated the scripts included in macOS.
+#### Installation
+- Deploy files in `~/Library/iTunes/Scripts/`
+- Go to System Preferences -> Keyboards -> Shortcuts -> App Shortcuts -> Add  
 
-  # Installation<br />
-  Add/Replace to ~/Library/Application Scripts/com.apple.iChat/<br />
-  In Messages.app cgo to Preferences and choose the script you want to use.
+  Application | Menu Title | Keyboard Shortcut
+  ---|---|---
+  iTunesSearchLyrics | Search in lyrics | ⇧⌘F _cmd+shift+f_
+  iTunesShowLyrics | Show lyrics | ⇧⌘L _cmd+shift+l_
+
+# Messages
+Some new scripts and some updated apple scripts for Messages.app For some reason apple never updated the scripts included in macOS.
+
+#### Installation
+- Add/Replace scripts to `~/Library/Application Scripts/com.apple.iChat/`
+- In Messages.app go to Preferences and choose the script you want to use.
